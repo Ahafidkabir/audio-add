@@ -1,0 +1,80 @@
+body{
+	margin: 0; padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+background-color: #042F3A;
+background-image: url(../image/bck.jpg);
+height: 100vh;
+opacity: 1;
+overflow: hidden;
+position: relative;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.content{
+	width: 680px;
+	overflow: hidden;
+	padding: 25px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+
+}
+img{
+	align-self: center;
+    max-width: 100%;
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+}
+h1{
+text-align: center;
+text-transform: uppercase;
+font-size: 56px;
+color: #7700f6;
+margin: 33px 0px;
+line-height: 1em;
+}
+p{
+text-align: center;
+text-transform: uppercase;
+font-size: 37px;
+color: #09090c;
+padding: 0px 0px 65px 3px;
+letter-spacing: -1px;
+}
+a{
+text-transform: uppercase;
+text-decoration: none;
+color: #000;
+letter-spacing: 12px;
+background-color: rgb(40, 49, 48);
+margin: 0px 27px;
+border-radius: -3px;
+border: 4px solid #000;
+}
+a:hover{
+	background-color: rgb(159, 166, 173);
+    border: 2px solid #fff;
+
+}
+.button{
+	text-align: center;
+	 color: #cededd;
+
+
+}
+.more{
+	padding: 15px 27px;
+}
+.new{
+	padding: 15px 20px;
+}
+
+.social{
+position: fixed;
+left: 45px;
+top: 81%;
+transform: translateY(-50%);}
